@@ -10,7 +10,7 @@
     <description>An Intellij IDEA plugin for Atlassian's tools.</description>
     <groupId>com.atlassian.connector</groupId>
     <artifactId>atlassian-idea-plugin</artifactId>
-    <version>3.0.1-SNAPSHOT</version>
+    <version>3.0.2-SNAPSHOT</version>
 
     <scm>
         <!--connection>scm:hg:file:///${basedir}</connection>
@@ -461,17 +461,17 @@
                     </excludes>
                 </configuration>
             </plugin>
-			<plugin>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<inherited>false</inherited>
-				<version>2.5</version>
-				<configuration>
-					<altDeploymentRepository>
-						atlassian-m2-snapshot-repository::default::dav:https://maven.atlassian.com/public-snapshot
+			<!--<plugin>-->
+				<!--<artifactId>maven-deploy-plugin</artifactId>-->
+				<!--<inherited>false</inherited>-->
+				<!--<version>2.5</version>-->
+				<!--<configuration>-->
+					<!--<altDeploymentRepository>-->
+						<!--&lt;!&ndash;atlassian-m2-snapshot-repository::default::dav:https://maven.atlassian.com/public-snapshot&ndash;&gt;-->
 						<!--central::default::dav:https://m2proxy.atlassian.com/repository/internal-->
-					</altDeploymentRepository>
-				</configuration>
-			</plugin>
+					<!--</altDeploymentRepository>-->
+				<!--</configuration>-->
+			<!--</plugin>-->
         </plugins>
 
 
