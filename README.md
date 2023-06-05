@@ -1,14 +1,40 @@
-## Atlassian IDE Connector for IntelliJ IDEA ##
+# Connector for IntelliJ IDEA
 
-This repository contains the source code for the Atlassian IDE Connector for IntelliJ IDEA. This product is open source and is not maintained by Atlassian. Feel free to fork the repository and make changes.
+[![Atlassian license](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![build](https://img.shields.io/bitbucket/pipelines/atlassian-labs/connector-idea/master?style=flat-square)](https://bitbucket.org/atlassian/connector-idea/pipelines)
 
-### Documentation ###
+## Usage
 
-You can read the documentation for the IDE Connector for IntelliJ IDEA here: [IntelliJ IDEA connector docs homepage](http://atlassian-docs.bitbucket.org/IDEPLUGIN-IDEA/)
+This repository contains the source code for the Connector for IntelliJ IDEA. 
+This product is open source and is not maintained by Atlassian. Feel free to fork 
+the repository and make changes.
 
-The documentation is also open source and can be updated. You can find the source code for the documentation here: [docs source](https://bitbucket.org/atlassian-docs/atlassian-docs.bitbucket.org/src/8a4b193b977a215b1264fd6c67fb4969fc0d842b/IDEPLUGIN-IDEA/?at=master)
+## Installation
 
-### Related ###
+Connector Commons are not used directly as they contain common code for plugins for IntelliJ IDEA, Eclipse and
+Visual Studio. Use Maven to build and install Connector Commons modules, then reference installed artifacts
+in plugins' projects.
 
-* [Repository for Atlassian IDE Connector for Eclipse](https://bitbucket.org/atlassian/connector-eclipse)
-* [Repository for Atlassian IDE Connector for Visual Studio](https://bitbucket.org/atlassian/connector-vs)
+## Documentation
+
+Documentation can be [found here](https://bitbucket.org/atlassian-docs/atlassian-docs.bitbucket.org).
+
+See also
+* [Repository for Connector for Eclipse](https://bitbucket.org/atlassian/connector-eclipse)
+* [Repository for Connector for Visual Studio](https://bitbucket.org/atlassian/connector-vs)
+
+## Tests
+
+Unit tests are located in src/test/java directory. Simply run them from your IDE.
+
+## Contributions
+
+Contributions to Connector for IntelliJ IDEA are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## License
+
+Copyright (c) 2008-2023 Atlassian US., Inc.
+Apache 2.0 licensed, see [LICENSE](LICENSE) file.
+
+[![With â¤ï¸ from Atlassian](https://raw.githubusercontent.com/atlassian-internal/oss-assets/master/banner-cheers.png)](https://www.atlassian.com)
